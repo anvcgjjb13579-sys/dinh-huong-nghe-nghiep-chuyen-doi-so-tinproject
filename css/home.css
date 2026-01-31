@@ -10,6 +10,10 @@
     display: flex;
     gap: 30px;
     margin-bottom: 40px;
+    background-image: url("../assets/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
 }
 
 .hero-main {
@@ -89,6 +93,10 @@
     border-radius: 12px;
     flex: 1;
 }
+.career-icon {
+    width: 60px;
+    margin-bottom: 12px;
+}
 
 /* VÌ SAO */
 .home-reason {
@@ -106,6 +114,11 @@
 .home-project {
     display: flex;
     gap: 30px;
+}
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
 }
 
 .project-info,
