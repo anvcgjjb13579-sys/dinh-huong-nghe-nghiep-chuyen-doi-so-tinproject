@@ -5,6 +5,7 @@
     <title>Kỹ sư IoT</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nghanh.css">
+    <link rel="stylesheet" href="css/iot.css">
 </head>
 
 <body id="top">
@@ -16,15 +17,15 @@
     </div>
     <nav class="nav">
         <ul>
-            <li><a href="index.html">Trang chủ</a></li>
-            <li><a href="cds.html">Chuyển đổi số</a></li>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Chuyển đổi số</a></li>
 
             <li class="dropdown">
-                <a href="#">Nhóm ngành công nghệ thông tin ▾</a>
+                <a href="#">Nhóm ngành CNTT ▾</a>
                 <ul class="dropdown-menu">
-                    <li><a href="cloud2.html">Kỹ sư điện toán đám mây</a></li>
-                    <li><a href="iot2.html">Kỹ sư IoT</a></li>
-                    <li><a href="ai1.html">Kỹ sư trí tuệ nhân tạo</a></li>
+                    <li><a href="#">Kỹ sư Cloud Automation</a></li>
+                    <li><a href="#">Kỹ sư IoT</a></li>
+                    <li><a href="#">Kỹ sư AI</a></li>
                 </ul>
             </li>
 
@@ -35,7 +36,7 @@
 
 <!-- ================= BREADCRUMB ================= -->
 <div class="breadcrumb">
-    <a href="index.html">Trang chủ</a> &gt;
+    <a href="index.html">Home</a> &gt;
     <a href="#">Nhóm ngành CNTT</a> &gt;
     <strong>Kỹ sư IoT</strong>
 </div>
@@ -52,8 +53,12 @@
     <main class="content">
 
         <!-- 1 -->
-        <section id="phan1">
+        <section id="phan1" class="iot-overview">
             <h2>1. Tổng quan về nghề</h2>
+             <!-- Ảnh minh họa hệ thống IoT -->
+    <div class="section-image">
+        <img src="../images/iot-system.png" alt="Hệ thống Internet of Things">
+    </div>
             <p>
                 IoT (Internet of Things) là mạng lưới kết nối các thiết bị thông minh với Internet
                 nhằm thu thập, trao đổi và xử lý dữ liệu.
@@ -67,8 +72,32 @@
         </section>
 
         <!-- 2 -->
-        <section id="phan2">
+        <section id="phan2" class="iot-workflow">
             <h2>2. Công việc chính</h2>
+            <!--Quy trình công việc IoT-->
+            <div class="workflow">
+                <div class="step">
+                    <img src="../images/iot-device.png" alt="ảnh minh họa">
+                    <p>Kết nối thiết bị</p>
+        </div>
+
+        <div class="step">
+            <img src="../images/iot-data.png" alt="ảnh minh họa">
+            <p>Xử lý dữ liệu</p>
+        </div>
+
+        <div class="step">
+            <img src="../images/iot-cloud.png" alt="ảnh minh họa">
+            <p>Kết nối Cloud</p>
+        </div>
+
+        <div class="step">
+            <img src="../images/iot-security.png" alt="ảnh minh họa">
+            <p>Bảo mật hệ thống</p>
+        </div>
+
+    </div>
+</section>
             <ul>
                 <li>Thiết kế và kết nối các thiết bị, cảm biến thông minh</li>
                 <li>Lập trình hệ thống nhúng và ứng dụng điều khiển</li>
@@ -80,8 +109,27 @@
         </section>
 
         <!-- 3 -->
-        <section id="phan3">
+        <section id="phan3" class="iot-roles">
             <h2>3. Các vị trí công việc phổ biến</h2>
+             <!-- Danh sách vị trí nghề nghiệp -->
+    <div class="role-list">
+
+        <div class="role-item">
+            <img src="../images/iot-engineer.png" alt="ảnh minh họa">
+            <p>IoT Engineer</p>
+        </div>
+
+        <div class="role-item">
+            <img src="../images/embedded.png" alt="ảnh minh họa">
+            <p>Embedded Engineer</p>
+        </div>
+
+        <div class="role-item">
+            <img src="../images/aiot.png" alt="ảnh minh họa">
+            <p>AIoT Engineer</p>
+        </div>
+
+    </div> 
             <ul>
                 <li>IoT Engineer (Kỹ sư IoT)</li>
                 <li>Embedded Systems Engineer (Kỹ sư hệ thống nhúng)</li>
@@ -92,8 +140,15 @@
         </section>
 
         <!-- 4 -->
-        <section id="phan4">
+        <section id="phan4" class="iot-companies">
             <h2>4. Doanh nghiệp tiêu biểu</h2>
+            <!-- Lưới logo công ty -->
+    <div class="company-logos">
+        <img src="../images/logo-viettel.png" alt="Viettel">
+        <img src="../images/logo-fpt.png" alt="FPT">
+        <img src="../images/logo-samsung.png" alt="Samsung">
+        <img src="../images/logo-intel.png" alt="Intel">
+    </div>
 
             <p><strong>Quốc tế:</strong></p>
             <ul>
@@ -147,12 +202,16 @@
         </section>
 
         <!-- 8 -->
-        <section id="phan8">
+        <section id="phan8"  class="iot-advice">
             <h2>8. Lời khuyên cho học sinh THPT</h2>
+             <!-- Khối ảnh + lời khuyên -->
+    <div class="advice-box">
+        <img src="../images/iot-student.png" alt="ảnh minh họa">
             <p>
                 Nếu bạn yêu thích Toán, Tin học, Vật lý và thích khám phá cách máy móc hoạt động,
                 ngành IoT sẽ là lựa chọn phù hợp.
             </p>
+        </div>
         </section>
 
     </main>
@@ -188,8 +247,8 @@
 
 <!-- ================= FOOTER ================= -->
 <footer class="footer">
-    <p>Tên dự án: Website định hướng nghề nghiệp công nghệ thông tin</p>
-    <p>Nhóm thực hiện: Cá mòi bốn cô gái</p>
+    <p>Tên dự án: Website định hướng nghề nghiệp CNTT</p>
+    <p>Nhóm thực hiện: …</p>
     <p>Năm thực hiện: 2026</p>
 <!-- ================= NÚT LÊN ĐẦU TRANG ================= -->
     <a href="#top" class="floating-top">↑</a>
