@@ -1,15 +1,26 @@
+
 /* ===== CLOUD: TỔNG QUAN ===== */
 
 .cloud-overview {
     position: relative;
     padding: 40px;
+    overflow: hidden; /* giữ ảnh trong section */
 }
 
+/* Ảnh nền mờ */
 .cloud-overview .bg-image {
     position: absolute;
     inset: 0;
     background: url("images/cloud-bg.png") center / cover no-repeat;
-    opacity: 0.1;
+    opacity: 0.12;          /* tăng nhẹ để dễ nhìn */
+    z-index: 0;             /* nằm dưới chữ */
+}
+
+/* Đưa nội dung lên trên ảnh */
+.cloud-overview h2,
+.cloud-overview p {
+    position: relative;
+    z-index: 1;
 }
 /* ===== CLOUD: CÔNG VIỆC ===== */
 
