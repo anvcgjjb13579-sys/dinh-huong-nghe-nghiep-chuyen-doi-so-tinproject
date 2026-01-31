@@ -11,7 +11,7 @@
 .cloud-overview .bg-image {
     position: absolute;
     inset: 0;
-    background: url("images/cloud-bg.png") center / cover no-repeat;
+    background: url("../images/cloud-bg.png") center / cover no-repeat;
     opacity: 0.5;          /* tăng nhẹ để dễ nhìn */
     z-index: 0;             /* nằm dưới chữ */
 }
