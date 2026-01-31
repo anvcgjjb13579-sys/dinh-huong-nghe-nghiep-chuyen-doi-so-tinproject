@@ -44,6 +44,15 @@ h1, h2 {
 
 .hero-image {
     flex: 1;
+    background: #eef1ff;
+    padding: 20px;
+    border-radius: 16px;
+}
+.hero-image img {
+    width: 100%;          /* co giãn theo khung */
+    max-width: 420px;     /* không quá to */
+    height: auto;         /* không méo ảnh */
+    display: block;
 }
 
 .image-placeholder {
@@ -88,27 +97,25 @@ h1, h2 {
 
 /* ===== PHẦN NHIỆM VỤ (ẨN) ===== */
 .tasks {
-    position: absolute;
-    inset: 0;
+    position: static;        /* cho phép giãn theo nội dung */
+    margin-top: 16px;
 
     background: linear-gradient(135deg, #12004f, #1b0a6b);
     color: #fff;
-
     padding: 24px;
+    border-radius: 12px;
 
     opacity: 0;
-    transform: translateY(10px);   /* tạo hiệu ứng nhẹ */
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
 
-    /* CHỐNG CHE CHỮ */
-    min-height: 100%;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
 }
 
-/* Hover để hiện nhiệm vụ */
 .member-card:hover .tasks {
     opacity: 1;
+    max-height: 500px;   /* đủ lớn để chứa text */
 }
-
 .tasks ul {
     margin-top: 30px;
     padding-left: 20px;
