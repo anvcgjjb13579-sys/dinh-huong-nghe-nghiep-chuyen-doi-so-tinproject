@@ -12,7 +12,7 @@
     position: absolute;
     inset: 0;
     background: url("../images/cloud-bg.png") center / cover no-repeat;
-    opacity: 0.5;          /* tăng nhẹ để dễ nhìn */
+    opacity: 0.1;          /* tăng nhẹ để dễ nhìn */
     z-index: 0;             /* nằm dưới chữ */
 }
 
