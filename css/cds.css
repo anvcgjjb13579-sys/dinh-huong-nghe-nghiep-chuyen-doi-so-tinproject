@@ -135,3 +135,35 @@
   height: auto;
   margin-bottom: 10px;
 }
+/* ===== SECTION 3: VAI TRÒ CNTT ===== */
+.role-image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.role-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+/* ===== SECTION 5: ĐỊNH HƯỚNG ===== */
+.orientation-wrap {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.orientation-text {
+  flex: 1;
+}
+
+.orientation-image {
+  flex: 1;
+  text-align: center;
+}
+
+.orientation-image img {
+  max-width: 100%;
+  height: auto;
+}
