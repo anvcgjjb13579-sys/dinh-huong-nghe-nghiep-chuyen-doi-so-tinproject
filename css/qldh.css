@@ -1,0 +1,186 @@
+/* ===== RESET CƠ BẢN ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #1a1a1a;
+}
+
+/* ===== CHUNG CHO SECTION ===== */
+.section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3b3fd8; /* tím – xanh */
+    margin-bottom: 16px;
+}
+
+/* ===== SECTION 1: HERO ===== */
+.hero {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text ul {
+    margin-top: 10px;
+}
+
+.hero-text li {
+    margin-left: 18px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.image-placeholder {
+    background: #ddd;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+}
+
+/* ===== SECTION 2: TEAM ===== */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.member-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+     overflow: visible;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Avatar giả */
+.avatar {
+    width: 60px;
+    height: 60px;
+    background: #cfd4ff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ===== PHẦN NHIỆM VỤ (ẨN) ===== */
+.tasks {
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(135deg, #12004f, #1b0a6b);
+    color: #fff;
+
+    padding: 24px;
+
+    opacity: 0;
+    transform: translateY(10px);   /* tạo hiệu ứng nhẹ */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
+    /* CHỐNG CHE CHỮ */
+    min-height: 100%;
+}
+
+/* Hover để hiện nhiệm vụ */
+.member-card:hover .tasks {
+    opacity: 1;
+}
+
+.tasks ul {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.tasks li {
+    margin-bottom: 12px;
+    line-height: 1.6;   /* CỰC KỲ QUAN TRỌNG khi zoom */
+}
+.member-card:hover .tasks {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== SECTION 3: TIMELINE ===== */
+.timeline-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.week {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 260px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.arrow {
+    font-size: 32px;
+    color: #3b3fd8;
+}
+/* ===== KHOANH VÙNG TOÀN BỘ TIẾN TRÌNH ===== */
+.timeline-wrapper {
+    background: #eef1ff;      /* Nền nhạt để tách khỏi phần khác */
+    border-radius: 16px;      /* Bo góc cho khung */
+    padding: 30px;            /* Khoảng đệm trong khung */
+    margin-top: 20px;
+
+    display: flex;            /* Xếp các tuần theo hàng ngang */
+    align-items: center;      /* Canh giữa theo chiều dọc */
+    justify-content: center;  /* Canh giữa theo chiều ngang */
+    gap: 30px;                /* Khoảng cách giữa các khối */
+}
+/* ===== KHỐI MỖI TUẦN ===== */
+.week {
+    background: #ffffff;     /* Nền trắng cho từng tuần */
+    padding: 20px;           /* Khoảng cách nội dung */
+    border-radius: 12px;     /* Bo góc */
+    width: 260px;            /* Độ rộng cố định */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08); /* Đổ bóng nhẹ */
+}
+
+/* Tiêu đề tuần */
+.week h3 {
+    margin-bottom: 10px;
+    color: #3b3fd8;          /* Màu tím – xanh chủ đạo */
+}
+/* ===== MŨI TÊN TIẾN TRÌNH ===== */
+.arrow {
+    font-size: 32px;         /* Kích thước mũi tên */
+    color: #3b3fd8;          /* Đồng bộ màu chủ đạo */
+    font-weight: bold;
+}
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;     /* Bo tròn ảnh */
+    object-fit: cover;      /* Không méo ảnh */
+    margin-bottom: 10px;
+    border: 2px solid #cfd4ff;
+}
