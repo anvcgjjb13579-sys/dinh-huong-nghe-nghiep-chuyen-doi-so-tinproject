@@ -29,7 +29,7 @@
                 </ul>
             </li>
 
-            <li><a href="team.html">Quản lí – điều hành</a></li>
+            <li><a href="#">Quản lí – điều hành</a></li>
         </ul>
     </nav>
 </header>
@@ -75,16 +75,7 @@
         <section id="phan2" class="iot-workflow">
             <h2>2. Công việc chính</h2>
             <!--Quy trình công việc IoT-->
-        
             <div class="workflow">
-                 <ul>
-                <li>Thiết kế và kết nối các thiết bị, cảm biến thông minh</li>
-                <li>Lập trình hệ thống nhúng và ứng dụng điều khiển</li>
-                <li>Thu thập và xử lý dữ liệu từ thiết bị IoT</li>
-                <li>Kết nối hệ thống IoT với nền tảng đám mây</li>
-                <li>Đảm bảo an toàn và bảo mật hệ thống</li>
-                <li>Kiểm tra, bảo trì và tối ưu hệ thống</li>
-            </ul>
                 <div class="step">
                     <img src="../images/iot-device.png" alt="ảnh minh họa">
                     <p>Kết nối thiết bị</p>
@@ -94,7 +85,7 @@
             <img src="../images/iot-data.png" alt="ảnh minh họa">
             <p>Xử lý dữ liệu</p>
         </div>
-      <br>
+
         <div class="step">
             <img src="../images/iot-cloud.png" alt="ảnh minh họa">
             <p>Kết nối Cloud</p>
@@ -107,7 +98,14 @@
 
     </div>
 </section>
-           
+            <ul>
+                <li>Thiết kế và kết nối các thiết bị, cảm biến thông minh</li>
+                <li>Lập trình hệ thống nhúng và ứng dụng điều khiển</li>
+                <li>Thu thập và xử lý dữ liệu từ thiết bị IoT</li>
+                <li>Kết nối hệ thống IoT với nền tảng đám mây</li>
+                <li>Đảm bảo an toàn và bảo mật hệ thống</li>
+                <li>Kiểm tra, bảo trì và tối ưu hệ thống</li>
+            </ul>
         </section>
 
         <!-- 3 -->
@@ -207,13 +205,12 @@
         <section id="phan8"  class="iot-advice">
             <h2>8. Lời khuyên cho học sinh THPT</h2>
              <!-- Khối ảnh + lời khuyên -->
-
+    <div class="advice-box">
+        <img src="../images/iot-student.png" alt="ảnh minh họa">
             <p>
                 Nếu bạn yêu thích Toán, Tin học, Vật lý và thích khám phá cách máy móc hoạt động,
                 ngành IoT sẽ là lựa chọn phù hợp.
             </p>
-             <div class="advice-box">
-        <img src="../images/iot-student.png" alt="ảnh minh họa">
         </div>
         </section>
 
