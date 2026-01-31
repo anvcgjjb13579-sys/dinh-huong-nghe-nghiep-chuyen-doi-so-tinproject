@@ -99,3 +99,39 @@
 .group-card {
     box-shadow: 0 6px 14px rgba(0,0,0,0.05);
 }
+/* ===== SECTION 1: OVERVIEW ===== */
+.overview-wrap {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.overview-text {
+  flex: 1;
+}
+
+.overview-image {
+  flex: 1;
+}
+
+.overview-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== LEVEL CARD IMAGE ===== */
+.level-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+/* ===== GROUP CARD IMAGE ===== */
+.group-card img {
+  max-width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
