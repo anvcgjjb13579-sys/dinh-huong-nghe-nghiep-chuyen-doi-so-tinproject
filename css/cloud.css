@@ -1,0 +1,78 @@
+/* ===== CLOUD: TỔNG QUAN ===== */
+
+.cloud-overview {
+    position: relative;
+    padding: 40px;
+}
+
+.cloud-overview .bg-image {
+    position: absolute;
+    inset: 0;
+    background: url("../images/cloud-bg.png") center / cover no-repeat;
+    opacity: 0.1;
+}
+/* ===== CLOUD: CÔNG VIỆC ===== */
+
+.cloud-work .work-wrap {
+    display: flex;
+    gap: 24px;
+}
+
+.cloud-work .work-text {
+    width: 65%;
+}
+
+.cloud-work .work-image {
+    width: 35%;
+}
+
+.cloud-work .work-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* ===== CLOUD: VỊ TRÍ ===== */
+
+.cloud-roles .role-badges span {
+    display: inline-block;
+    background: #eef3ff;
+    padding: 8px 12px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+/* ===== CLOUD: DOANH NGHIỆP ===== */
+
+.cloud-companies .company-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.cloud-companies img {
+    width: 120px;
+}
+/* ===== CLOUD: KỸ NĂNG ===== */
+
+.cloud-skills .skill-list li {
+    margin-bottom: 8px;
+}
+/* ===== CLOUD: TRƯỜNG ĐÀO TẠO ===== */
+
+.cloud-schools .school-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 16px 0;
+}
+/* ===== CLOUD: LỜI KHUYÊN ===== */
+
+.cloud-advice .advice-box {
+    display: flex;
+    gap: 12px;
+    background: #f5f7ff;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.cloud-advice .icon {
+    font-size: 24px;
+}
