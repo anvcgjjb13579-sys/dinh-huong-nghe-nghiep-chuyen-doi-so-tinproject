@@ -52,7 +52,10 @@
     <main class="content">
 
         <!-- 1 -->
-        <section id="phan1">
+        <section id="phan1" class="cloud-overview">
+    <!-- Ảnh nền mờ cho toàn section -->
+        <div class="bg-image"></div>
+
             <h2>1. Tổng quan về nghề</h2>
             
             <p>
@@ -74,7 +77,13 @@
 
         <!-- 2 -->
         <section id="phan2">
+        <section id="phan2" class="cloud-work">
             <h2>2. Công việc chính</h2>
+
+            <!-- Bọc chữ + ảnh -->
+            <div class="work-wrap">
+            <!-- Nội dung chữ -->
+            <div class="work-text">
             <ul>
                 <li><strong>Thiết kế kiến trúc đám mây:</strong> Thiết kế và phát triển cấu trúc đám mây sao cho phù hợp với nhu cầu và mong muốn của tổ chức, doanh nghiệp.</li>
                 <li><strong>Triển khai dịch vụ đám mây:</strong> Thiết kế và phát triển các công cụ đám mây như máy ảo, lưu trữ, cơ sở dữ liệu và mạng.</li>
@@ -82,6 +91,13 @@
                 <li><strong>Hợp tác với các nhóm đa chức năng:</strong> Làm việc cùng các nhóm phát triển, vận hành và bảo mật.</li>
                 <li><strong>Khắc phục sự cố:</strong> Phát hiện và giải quyết các sự cố trong hệ thống đám mây.</li>
             </ul>
+        </div>
+        <!-- Ảnh minh họa kiến trúc Cloud -->
+        <div class="work-image">
+            <img src="../images/cloud-architecture.png" alt="Kiến trúc Cloud">
+        </div>
+
+    </div>
         </section>
 
         <!-- 3 -->
@@ -106,7 +122,7 @@
         </section>
 
         <!-- 4 -->
-        <section id="phan4">
+        <section id="phan4" class="cloud-companies">
             <h2>4. Doanh nghiệp tiêu biểu</h2>
             <p><strong>Quốc tế:</strong></p>
             <ul>
@@ -119,24 +135,37 @@
                 <li>VNPAY</li>
                 <li>CMC Telecom</li>
             </ul>
+                        <!-- Logo công ty lớn -->
+            <div class="company-list">
+                <img src="../images/logo-aws.png" alt="AWS">
+                <img src="../images/logo-azure.png" alt="Microsoft Azure">
+                <img src="../images/logo-gcp.png" alt="Google Cloud">
+            </div>
+
         </section>
 
         <!-- 5 -->
-        <section id="phan5">
+        <section id="phan5" class="cloud-skills">
             <h2>5. Phẩm chất & kỹ năng cần có</h2>
-            <ul>
-                <li>Tư duy logic và khả năng phân tích</li>
-                <li>Tinh thần học hỏi và cập nhật công nghệ</li>
-                <li>Tính cẩn thận và trách nhiệm cao</li>
-                <li>Khả năng chịu áp lực</li>
-                <li>Kỹ năng làm việc nhóm</li>
-                <li>Khả năng giao tiếp và tiếng Anh</li>
+            <!-- Mỗi dòng = 1 kỹ năng -->
+            <ul class="skill-list">
+                <li>✔ Tư duy logic và khả năng phân tích</li>
+                <li>✔ Tinh thần học hỏi và cập nhật công nghệ</li>
+                <li>✔ Tính cẩn thận và trách nhiệm cao</li>
+                <li>✔ Khả năng chịu áp lực</li>
+                <li>✔ Kỹ năng làm việc nhóm</li>
+                <li>✔ Khả năng giao tiếp và tiếng Anh</li>
             </ul>
         </section>
 
         <!-- 6 -->
-        <section id="phan6">
-            <h2>6. Các trường đào tạo tiêu biểu</h2>
+         <section id="phan6" class="cloud-schools">
+            <h2>6. Ngành học & trường đào tạo</h2>
+
+            <!-- Ảnh minh họa giáo dục -->
+            <div class="school-image">
+                <img src="../images/cloud-university.png" alt="Đào tạo Cloud">
+            </div>
             <ul>
                 <li>Đại học CMC</li>
                 <li>Đại học Bách khoa (ĐHQG-HCM)</li>
@@ -159,15 +188,23 @@
         </section>
 
         <!-- 8 -->
-        <section id="phan8">
-            <h2>8. Lời khuyên cho học sinh THPT</h2>
-            <p>
-                Học tốt Toán – Tin – Tiếng Anh, làm quen với máy tính, mạng Internet
-                và tư duy hệ thống sẽ giúp bạn có nền tảng tốt để theo đuổi ngành
-                điện toán đám mây.
-            </p>
-        </section>
+    <section id="phan8" class="cloud-advice">
+    <h2>8. Lời khuyên cho học sinh THPT</h2>
 
+    <!-- Khung lời khuyên -->
+    <div class="advice-box">
+        <span class="icon">☁</span>
+        <p>
+            Cloud Automation phù hợp với học sinh yêu thích công nghệ,
+            hệ thống và tư duy logic.
+        </p>
+        <p>
+            Học tốt Toán – Tin – Tiếng Anh, làm quen với máy tính, mạng Internet
+            và tư duy hệ thống sẽ giúp bạn có nền tảng tốt để theo đuổi ngành
+            điện toán đám mây.
+        </p>
+    </div>
+</section>
     </main>
 
     <!-- ===== SIDEBAR ===== -->
