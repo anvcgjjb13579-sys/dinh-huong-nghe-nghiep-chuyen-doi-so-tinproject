@@ -42,6 +42,15 @@
     width: 100%;
     border-radius: 10px;
 }
+}
+
+.work-image {
+    width: 33.33%;
+    text-align: center;
+    background: #f7f9ff;
+    padding: 16px;
+    border-radius: 10px;
+}
 /* ===== CLOUD: VỊ TRÍ ===== */
 
 .cloud-roles .role-badges span {
