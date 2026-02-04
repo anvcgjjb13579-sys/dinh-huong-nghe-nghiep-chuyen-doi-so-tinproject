@@ -133,11 +133,6 @@
 }
 /* ===== CLOUD: TRƯỜNG ĐÀO TẠO ===== */
 
-.cloud-schools .school-image img {
-    width: 100%;
-    border-radius: 10px;
-    margin: 16px 0;
-}
 /* Khối chứa 3 ảnh, xếp ngang */
 .cloud-schools .job-gallery {
     display: flex;
