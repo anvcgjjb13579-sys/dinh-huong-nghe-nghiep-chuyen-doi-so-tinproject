@@ -34,14 +34,6 @@
     width: 65%;
 }
 
-.cloud-work .work-image {
-    width: 35%;
-}
-
-.cloud-work .work-image img {
-    width: 100%;
-    border-radius: 10px;
-}
 
 .cloud-work .role-list {
     display: flex;
