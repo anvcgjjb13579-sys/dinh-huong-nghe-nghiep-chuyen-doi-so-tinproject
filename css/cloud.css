@@ -44,6 +44,32 @@
 
 /* ===== CLOUD: VỊ TRÍ ===== */
 
+/* Khối chứa 3 ảnh, xếp ngang */
+.ai-jobs .job-gallery {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Mỗi ảnh chiếm 1/3 chiều rộng */
+.ai-jobs .job-item {
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Ảnh công việc */
+.ai-jobs .job-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+/* Mô tả dưới ảnh */
+.ai-jobs .job-item p {
+    font-size: 14px;
+    color: #032C7D;
+}
+
 .cloud-roles .role-badges span {
     display: inline-block;
     background: #eef3ff;
