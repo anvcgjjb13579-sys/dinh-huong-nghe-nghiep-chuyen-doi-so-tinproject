@@ -29,6 +29,30 @@
 .iot-workflow .step p {
     font-size: 14px;
 }
+/* Khối chứa 3 ảnh, xếp ngang */
+.iot-work .job-gallery {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Mỗi ảnh chiếm 1/3 chiều rộng */
+.iot-work .job-item {
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Ảnh công việc */
+.iot-work .job-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+/* Mô tả dưới ảnh */
+.iot-work .job-item p {
+    font-size: 14px;
+    color: #032C7D;
+}
 /* ===== IOT: VỊ TRÍ NGHỀ NGHIỆP ===== */
 
 .iot-roles .role-list {
