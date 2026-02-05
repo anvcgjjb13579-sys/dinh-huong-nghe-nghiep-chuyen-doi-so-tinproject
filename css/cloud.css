@@ -132,8 +132,8 @@
     margin-bottom: 8px;
 }
 /* ===== CLOUD: TRƯỜNG ĐÀO TẠO ===== */
-.cloud-schools .dh a:hover { 
-    color :  #0056b3; /* đổi màu khi rê chuột */
+.cloud-schools .dh { 
+    color :  black /* đổi màu khi rê chuột */
     text-decoration: none;
 }
     
