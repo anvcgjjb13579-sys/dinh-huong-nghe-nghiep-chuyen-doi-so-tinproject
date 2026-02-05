@@ -131,6 +131,26 @@
 .cloud-skills .skill-list li {
     margin-bottom: 8px;
 }
+
+/* Khối chứa 3 ảnh, xếp ngang */
+.cloud-skills .job-gallery {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Mỗi ảnh chiếm 1/3 chiều rộng */
+.cloud-skills .job-item {
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Ảnh công việc */
+.cloud-skills .job-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
 /* ===== CLOUD: TRƯỜNG ĐÀO TẠO ===== */
 .cloud-schools .dh { 
     color :  black /* đổi màu khi rê chuột */
