@@ -132,6 +132,11 @@
     margin-bottom: 8px;
 }
 /* ===== CLOUD: TRƯỜNG ĐÀO TẠO ===== */
+.cloud-schools .dh a:hover { 
+    color :  #0056b3; /* đổi màu khi rê chuột */
+    text-decoration: none;
+}
+    
 
 /* Khối chứa 3 ảnh, xếp ngang */
 .cloud-schools .job-gallery {
