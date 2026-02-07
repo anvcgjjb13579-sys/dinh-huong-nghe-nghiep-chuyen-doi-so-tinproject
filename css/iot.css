@@ -54,25 +54,31 @@
     color: #032C7D;
 }
 /* ===== IOT: VỊ TRÍ NGHỀ NGHIỆP ===== */
-
-.iot-roles .role-list {
+/* Khối chứa 3 ảnh, xếp ngang */
+.iot-roles .job-gallery {
     display: flex;
     gap: 20px;
     margin-top: 20px;
 }
 
-.iot-roles .role-item {
+/* Mỗi ảnh chiếm 1/3 chiều rộng */
+.iot-roles .job-item {
     width: 33.33%;
     text-align: center;
-    background: #f7f9ff;
-    padding: 16px;
-    border-radius: 10px;
 }
 
-.iot-roles .role-item img {
-    width: 60px;
+/* Ảnh công việc */
+.iot-roles .job-item img {
+    width: 100%;
+    border-radius: 10px;
     margin-bottom: 8px;
 }
+/* Mô tả dưới ảnh */
+.iot-roles .job-item p {
+    font-size: 14px;
+    color: #032C7D;
+}
+
 /* ===== IOT: DOANH NGHIỆP ===== */
 
 .iot-companies .company-logos {
