@@ -177,7 +177,7 @@
 
 /* Ảnh công việc */
 .iot-schools .job-item img {
-    width: 100%;
+    width: 25%;
     border-radius: 10px;
     margin-bottom: 8px;
 }
