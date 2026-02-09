@@ -49,6 +49,26 @@
     font-size: 14px;
     color: #032C7D;
 }
+
+/* Khối chứa 3 ảnh, xếp ngang */
+.truong .job-gallery {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Mỗi ảnh chiếm 1/3 chiều rộng */
+.truong .job-item {
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Ảnh công việc */
+.truong .job-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
 /* ===== SECTION 8: LỜI KHUYÊN HS THPT ===== */
 
 /* Chia layout ảnh – chữ theo chiều ngang */
