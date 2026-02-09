@@ -194,4 +194,19 @@
     padding: 40px;
     border-radius: 20px;
 }
+/* Khung bọc ảnh */
+.box-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
 
+/* Ảnh bên trong */
+.box-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
