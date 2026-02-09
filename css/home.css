@@ -153,3 +153,10 @@
     background: #0841C9;
     color: white;
 }
+.btn {
+    display: inline-block;
+    line-height: 1.4;
+    white-space: normal;
+    text-align: center;
+}
+
