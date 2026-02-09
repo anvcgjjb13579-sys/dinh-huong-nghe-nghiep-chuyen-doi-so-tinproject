@@ -165,4 +165,36 @@
     white-space: normal;
     text-align: center;
 }
+/* HERO */
+.home-hero {
+    background-color: #bcd2ff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* Giới thiệu chuyển đổi số */
+.home-digital {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* Nhóm ngành công nghệ */
+.home-career {
+    background-color: #e1eaff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* Vì sao nên tìm hiểu */
+.home-reason {
+    background-color: #ffffff;
+}
+
+/* Giới thiệu dự án */
+.home-project {
+    background-color: #c4d6ff;
+    padding: 40px;
+    border-radius: 20px;
+}
 
