@@ -104,18 +104,6 @@
 }
 
 
-/* VÌ SAO */
-.home-reason {
-    background: #ffffff;
-    padding: 28px;
-    border-radius: 12px;
-    margin-bottom: 40px;
-}
-
-.home-reason ul {
-    padding-left: 20px;
-}
-
 /* DỰ ÁN */
 .home-project {
     display: flex;
@@ -199,10 +187,6 @@
     border-radius: 20px;
 }
 
-/* Vì sao nên tìm hiểu */
-.home-reason {
-    background-color: #ffffff;
-}
 
 /* Giới thiệu dự án */
 .home-project {
