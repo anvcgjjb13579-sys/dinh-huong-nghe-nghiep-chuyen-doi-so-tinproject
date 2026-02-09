@@ -184,3 +184,34 @@ h1, h2 {
     margin-bottom: 10px;
     border: 2px solid #cfd4ff;
 }
+.week-icon {
+    margin-right: 6px;
+    font-size: 1.2em;
+}
+.progress-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+.progress-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+.progress-card::after {
+    content: "✔ Hoàn thành";
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: #e0f2fe;
+    color: #0369a1;
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 999px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.progress-card:hover::after {
+    opacity: 1;
+}
