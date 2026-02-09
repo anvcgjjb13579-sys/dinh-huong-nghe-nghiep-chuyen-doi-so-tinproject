@@ -163,3 +163,16 @@
   max-width: 100%;
   height: auto;
 }
+/* Giảm kích cỡ ảnh ở section Tổng quan */
+.overview-image {
+  flex: 0.8;              /* ảnh nhỏ hơn text */
+  display: flex;
+  justify-content: center;
+}
+
+.overview-image img {
+  max-width: 90%;         /* không cho ảnh quá to */
+  height: auto;
+  border-radius: 16px;    /* mềm mại hơn */
+}
+
