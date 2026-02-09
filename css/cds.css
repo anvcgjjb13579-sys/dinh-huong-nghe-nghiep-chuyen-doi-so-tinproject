@@ -174,9 +174,7 @@
   max-width: 90%;         /* không cho ảnh quá to */
   height: auto;
   border-radius: 16px;    /* mềm mại hơn */
-}
-.overview-image img {
-  box-shadow: 0 12px 30px rgba(8, 65, 201, 0.15);
+box-shadow: 0 12px 30px rgb(8 156 201 / 46%);
 }
 
 
