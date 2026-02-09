@@ -32,9 +32,11 @@ a:hover {
     padding: 15px 40px;
 }
 
-.logo {
-    font-weight: bold;
-    font-size: 20px;
+.logo img {
+    height: 42px;
+    width: 42px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .nav ul {
