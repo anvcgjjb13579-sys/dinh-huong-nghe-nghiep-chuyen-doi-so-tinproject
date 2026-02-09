@@ -10,7 +10,7 @@
     display: flex;
     gap: 30px;
     margin-bottom: 40px;
-    background-image: url("../assets/images/hero-bg.jpg");
+    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -18,7 +18,7 @@
 
 .hero-main {
     flex: 2;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.9);
     padding: 32px;
     border-radius: 14px;
 }
@@ -71,6 +71,7 @@
 .digital-img {
     width: 60%;
     border-radius: 12px;
+    object-fit: cover;
 }
 
 .digital-content {
