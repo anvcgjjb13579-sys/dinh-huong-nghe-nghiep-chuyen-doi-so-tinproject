@@ -269,21 +269,5 @@
 }
 
 .cloud-advice .icon {
-    font-size: 26px;
-    margin-top: 4px;
+    font-size: 24px;
 }
-.cloud-advice .advice-box {
-    display: flex;
-    gap: 20px;
-    background: #f5f7ff;
-    padding: 20px;
-    border-radius: 12px;
-    align-items: flex-start;
-}
-/* Khối chữ: xếp DỌC */
-.cloud-advice .advice-text {
-    display: flex;
-    flex-direction: column; /* QUAN TRỌNG */
-    gap: 10px;
-}
-
