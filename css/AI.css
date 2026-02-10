@@ -254,4 +254,10 @@
 .job-grid ul {
   list-style: disc;
   padding-left: 20px;
+  background-color: #4951aae3;
+  border-radius: 10px;
 }
+.job-grid li{
+    color: #f6f6ff
+}
+
