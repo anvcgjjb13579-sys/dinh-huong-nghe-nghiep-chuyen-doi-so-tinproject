@@ -150,25 +150,25 @@
     align-items: center;
 
     min-height: 360px;
-    padding: 40px;
+    padding: 40px 60px;
 
-    /* Ảnh nền */
-    background-image: url("../images/section5ai.jpg"); /* đổi đúng path ảnh */
+    background-image: url("../images/section5ai.jpg");
     background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain;
+    background-position: right center;   /* ✅ ảnh sang PHẢI */
+    background-size: 42%;               /* ✅ ảnh không quá to */
 
-    background-color: #f5f7ff; /* nền phụ */
+    background-color: #f5f7ff;
 }
 
-/* Nội dung bên phải */
+/* Nội dung bên trái */
 .ai-skills .skills-content {
-    margin-right: auto;        /* đẩy sang phải */
-    width: 55%;               /* chiếm nửa phải */
-    background: rgba(255,255,255,0.9);
+    width: 50%;              /* ✅ chỉ chiếm nửa trái */
+    max-width: 600px;
+    background: rgba(255,255,255,0.92);
     padding: 28px;
     border-radius: 16px;
 }
+
 
 /* ===== SECTION 8: LỜI KHUYÊN HS THPT ===== */
 
