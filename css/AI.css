@@ -199,3 +199,16 @@
         height: 160px;
     }
 }
+/* ===== SECTION 7: ĐỊNH HƯỚNG HỌC TẬP ===== */
+#phan7 {
+    background: #6785ff;           /* nền xanh nhạt */
+    
+}
+/* Icon mũi tên đầu dòng */
+#phan7 li{
+  color: #dddfe6
+}
+#phan7 h2 {
+  color: #ffffff;
+  border-left-color: #280bb2;
+}
