@@ -1,3 +1,78 @@
+/* ===== AI: HERO ===== */
+.hero-ai {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Video / gif nền */
+.hero-ai-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100%;
+    height: 100%;
+
+    transform: translate(-50%, -50%);
+    object-fit: cover;   /* ⭐ không méo, không hở */
+
+    z-index: 1;
+}
+
+/* Lớp phủ để chữ nổi */
+.hero-ai-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 2;
+}
+
+/* Nội dung chữ */
+.hero-ai-content {
+    position: relative;
+    z-index: 3;
+
+    color: #ffffff;
+    text-align: center;
+
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.hero-ai-content h1 {
+    font-size: 3rem;
+    margin-bottom: 12px;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,0.5),
+        0 0 20px rgba(99,102,241,0.6);
+}
+
+.hero-ai-content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-ai {
+        height: 70vh;
+    }
+
+    .hero-ai-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-ai-content p {
+        font-size: 1rem;
+    }
+}
+
 /* ===== SECTION 1: TỔNG QUAN NGHỀ AI ===== */
 
 /* Chia layout thành 2 cột bằng flex */
