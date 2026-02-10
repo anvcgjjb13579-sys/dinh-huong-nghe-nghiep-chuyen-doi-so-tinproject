@@ -153,18 +153,9 @@ body {
 }
 /* ===== SECTION 5: PHẨM CHẤT & KỸ NĂNG ===== */
 .ai-skills {
-    display: flex;
-    align-items: center;
-
-    min-height: 360px;
-    padding: 40px 60px;
-
-    background-image: url("../images/section5ai.jpg");
-    background-repeat: no-repeat;
-    background-position: right center;   /* ✅ ảnh sang PHẢI */
-    background-size: 42%;               /* ✅ ảnh không quá to */
-
-    background-color: #f5f7ff;
+    position: relative;
+    padding: 40px;
+    overflow: hidden; 
 }
 
 /* Nội dung bên trái */
@@ -176,6 +167,22 @@ body {
     border-radius: 16px;
 }
 
+
+/* Ảnh nền mờ */
+.ai-skills .sos-image {
+    position: absolute;
+    inset: 0;
+    background: url("../images/sos.jpg") center / cover no-repeat;
+    opacity: 0.;          /* tăng nhẹ để dễ nhìn */
+    z-index: 0;             /* nằm dưới chữ */
+}
+
+/* Đưa nội dung lên trên ảnh */
+.ai-skills h2,
+.ai-skills p {
+    position: relative;
+    z-index: 1;
+}
 
 /* ===== SECTION 8: LỜI KHUYÊN HS THPT ===== */
 
