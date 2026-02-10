@@ -97,6 +97,13 @@
     width: 100%;
     border-radius: 10px;
 }
+body {
+    background: linear-gradient(
+        135deg,
+        #000313 0%,
+        #002e6c 50%,
+        #ffff0069 100%
+    );
 /* ===== SECTION 2: CÔNG VIỆC CHÍNH ===== */
 
 /* Khối chứa 3 ảnh, xếp ngang */
