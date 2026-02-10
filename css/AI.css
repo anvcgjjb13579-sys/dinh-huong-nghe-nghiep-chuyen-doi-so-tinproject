@@ -144,6 +144,32 @@
     border-radius: 10px;
     margin-bottom: 8px;
 }
+/* ===== SECTION 5: PHẨM CHẤT & KỸ NĂNG ===== */
+.ai-skills {
+    display: flex;
+    align-items: center;
+
+    min-height: 360px;
+    padding: 40px;
+
+    /* Ảnh nền */
+    background-image: url("../images/section5ai.jpg"); /* đổi đúng path ảnh */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+
+    background-color: #f5f7ff; /* nền phụ */
+}
+
+/* Nội dung bên phải */
+.ai-skills .skills-content {
+    margin-left: auto;        /* đẩy sang phải */
+    width: 55%;               /* chiếm nửa phải */
+    background: rgba(255,255,255,0.9);
+    padding: 28px;
+    border-radius: 16px;
+}
+
 /* ===== SECTION 8: LỜI KHUYÊN HS THPT ===== */
 
 /* Chia layout ảnh – chữ theo chiều ngang */
@@ -201,14 +227,19 @@
 }
 /* ===== SECTION 7: ĐỊNH HƯỚNG HỌC TẬP ===== */
 #phan7 {
-    background: #6785ff;           /* nền xanh nhạt */
+    background: #c8d3ff;           /* nền xanh nhạt */
     
 }
 /* Icon mũi tên đầu dòng */
-#phan7 li{
-  color: #dddfe6
-}
 #phan7 h2 {
-  color: #ffffff;
+  color: #050872;
   border-left-color: #280bb2;
+}
+/* Mỗi ý = 1 khối riêng */
+#phan7 li {
+    color: #f4f2e4;
+    background: #0a022dc7;           /* nền trắng từng dòng */
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 14px;
 }
