@@ -62,20 +62,30 @@
 }
 
 /* GIỚI THIỆU CĐS */
+/* ===== GIỚI THIỆU CHUYỂN ĐỔI SỐ ===== */
 .home-digital {
     display: flex;
     gap: 30px;
-    margin-bottom: 40px;
+    align-items: center; /* canh giữa theo chiều dọc */
 }
 
-.digital-img {
-    width: 60%;
+/* Cột video bên trái */
+.digital-media {
+    flex: 1; /* chiếm 1 phần */
+}
+
+/* Video không tràn */
+.digital-video {
+    width: 100%;        /* KHÓA chiều ngang */
+    max-width: 100%;    /* chống tràn */
+    height: auto;
     border-radius: 12px;
-    object-fit: cover;
+    display: block;
 }
 
+/* Cột nội dung bên phải */
 .digital-content {
-    flex: 2;
+    flex: 1;
 }
 
 /* NHÓM NGÀNH */
