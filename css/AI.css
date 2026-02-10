@@ -176,3 +176,26 @@
     list-style: none;
     padding-left: 0;
 }
+/* ===== SECTION 6: ẢNH TRƯỜNG ĐÀO TẠO ===== */
+.truong .job-item {
+    width: 33.33%;
+    height: 200px;          /* ⭐ khóa chiều cao */
+    overflow: hidden;       /* cắt phần ảnh thừa */
+    border-radius: 14px;
+}
+
+.truong .job-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* ⭐ ảnh không méo */
+}
+@media (max-width: 768px) {
+    .truong .job-gallery {
+        flex-direction: column;
+    }
+
+    .truong .job-item {
+        width: 100%;
+        height: 160px;
+    }
+}
