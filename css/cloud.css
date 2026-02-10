@@ -3,6 +3,9 @@
     position: relative;
     min-height: 320px;
     padding: 60px 50px;
+        border-radius: 28px;
+    overflow: hidden;
+
 
     /* Ảnh nền */
     background-image:
@@ -16,22 +19,39 @@
 
     color: #ffffff;
 }
-.hero h1 {
-  color: #ffffff;
-  font-size: 2.4rem;
-  font-weight: 700;
-}
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
 
-.hero p {
-  color: rgba(255, 255, 255, 0.85);
-  max-width: 520px;
-  line-height: 1.6;
+    /* Gradient mờ từ trái → phải */
+    background: linear-gradient(
+        90deg,
+        rgba(20, 25, 80, 0.75) 0%,
+        rgba(20, 25, 80, 0.55) 35%,
+        rgba(20, 25, 80, 0.25) 55%,
+        rgba(20, 25, 80, 0.0) 70%
+    );
+
+    z-index: 1;
 }
 .hero-content {
   position: relative;
   z-index: 2;
   max-width: 50%;
   padding: 80px 60px;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 12px;
+    text-shadow:
+        0 0 8px rgba(255, 255, 255, 0.6),
+        0 0 16px rgba(99, 102, 241, 0.4);
+}
+.hero-content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
 /* ===== CLOUD: TỔNG QUAN ===== */
 
