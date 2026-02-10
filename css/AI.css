@@ -163,7 +163,7 @@
 
 /* Nội dung bên phải */
 .ai-skills .skills-content {
-    margin-left: auto;        /* đẩy sang phải */
+    margin-right: auto;        /* đẩy sang phải */
     width: 55%;               /* chiếm nửa phải */
     background: rgba(255,255,255,0.9);
     padding: 28px;
