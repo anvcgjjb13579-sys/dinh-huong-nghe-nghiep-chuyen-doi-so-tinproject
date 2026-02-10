@@ -44,6 +44,7 @@ h1, h2 {
 
 .hero-image {
     flex: 1;
+    radius: 10px;
 }
 
 .image-placeholder {
