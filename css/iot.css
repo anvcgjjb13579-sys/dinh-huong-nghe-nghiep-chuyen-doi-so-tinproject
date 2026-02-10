@@ -276,3 +276,11 @@
         height: 100px;
     }
 }
+/* Section 6 – ảnh minh họa */
+.section-image img {
+    width: 100%;          /* Không bao giờ tràn khung */
+    max-width: 100%;      /* Chặn ảnh vượt container */
+    height: auto;         /* Giữ đúng tỉ lệ ảnh */
+    display: block;       /* Tránh khoảng trống inline */
+    border-radius: 12px;
+}
