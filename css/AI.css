@@ -243,3 +243,15 @@
     border-radius: 12px;
     margin-bottom: 14px;
 }
+/* Grid cho danh sách công việc */
+.job-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 cột bằng nhau */
+  gap: 24px;
+}
+
+/* Danh sách */
+.job-grid ul {
+  list-style: disc;
+  padding-left: 20px;
+}
