@@ -67,7 +67,7 @@ h1, h2 {
 .member-card {
     background: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 50px;
     position: relative;
      overflow: visible;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
@@ -76,7 +76,7 @@ h1, h2 {
 /* Avatar giả */
 .avatar {
     width: 60px;
-    height: 60px;
+    height: 70px;
     background: #cfd4ff;
     border-radius: 50%;
     margin-bottom: 10px;
@@ -150,12 +150,12 @@ h1, h2 {
     background: #eef1ff;      /* Nền nhạt để tách khỏi phần khác */
     border-radius: 16px;      /* Bo góc cho khung */
     padding: 30px;            /* Khoảng đệm trong khung */
-    margin-top: 20px;
+    margin-top: 10px;
 
     display: flex;            /* Xếp các tuần theo hàng ngang */
     align-items: center;      /* Canh giữa theo chiều dọc */
     justify-content: center;  /* Canh giữa theo chiều ngang */
-    gap: 30px;                /* Khoảng cách giữa các khối */
+    gap: 10px;                /* Khoảng cách giữa các khối */
 }
 /* ===== KHỐI MỖI TUẦN ===== */
 .week {
