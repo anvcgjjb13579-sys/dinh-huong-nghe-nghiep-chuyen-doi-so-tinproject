@@ -152,37 +152,74 @@ body {
     margin-bottom: 8px;
 }
 /* ===== SECTION 5: PHẨM CHẤT & KỸ NĂNG ===== */
+/* ===== SECTION 5 – HERO STYLE ===== */
 .ai-skills {
     position: relative;
-    padding: 40px;
-    overflow: hidden; 
+    min-height: 340px;
+    padding: 80px 60px;
+
+    /* Ảnh AI nền */
+    background-image:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,0.92) 0%,
+            rgba(255,255,255,0.85) 45%,
+            rgba(255,255,255,0.3) 65%,
+            rgba(255,255,255,0) 80%
+        ),
+        url("../images/section5ai.jpg");
+
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    border-radius: 24px;
+    margin-bottom: 40px;
 }
-
-/* Nội dung bên trái */
-.ai-skills .skills-content {
-    width: 50%;              /* ✅ chỉ chiếm nửa trái */
-    max-width: 600px;
-    background: rgba(255,255,255,0.92);
-    padding: 28px;
-    border-radius: 16px;
-}
-
-
-/* Ảnh nền mờ */
-.ai-skills .sos-image {
-    position: absolute;
-    inset: 0;
-    background: url("../images/sos.jpg") center / cover no-repeat;
-    opacity: 0.;          /* tăng nhẹ để dễ nhìn */
-    z-index: 0;             /* nằm dưới chữ */
-}
-
-/* Đưa nội dung lên trên ảnh */
-.ai-skills h2,
-.ai-skills p {
+.skills-content {
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    max-width: 50%;
 }
+
+.skills-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+
+.skills-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-content li {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    padding-left: 28px;
+    position: relative;
+}
+
+.skills-content li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .ai-skills {
+        padding: 40px 24px;
+        background-position: center;
+    }
+
+    .skills-content {
+        max-width: 100%;
+    }
+}
+
+
 
 /* ===== SECTION 8: LỜI KHUYÊN HS THPT ===== */
 
