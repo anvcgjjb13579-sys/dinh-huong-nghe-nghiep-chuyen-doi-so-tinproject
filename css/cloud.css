@@ -1,3 +1,10 @@
+body {
+    background: linear-gradient(
+        135deg,
+        #350078 0%,
+        #002e6c 50%,
+        #8898ff 100%
+    );
 /* ===== HERO CHUYỂN ĐỔI SỐ (BACKGROUND IMAGE) ===== */
 .hero {
     position: relative;
