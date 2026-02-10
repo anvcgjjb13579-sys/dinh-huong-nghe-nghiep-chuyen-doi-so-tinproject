@@ -288,4 +288,10 @@ a:hover {
         height: auto;
     }
 }
+/* Ngăn ảnh làm vỡ layout */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
