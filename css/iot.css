@@ -1,3 +1,10 @@
+body {
+    background: linear-gradient(
+        135deg,
+        #001270 0%,
+        #1d0a8de8 50%,
+        #ff000014 100%
+    );
 /* ===== IOT: HERO ===== */
 .hero-iot {
     position: relative;
