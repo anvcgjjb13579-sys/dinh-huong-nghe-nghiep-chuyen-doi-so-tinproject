@@ -194,35 +194,58 @@ a:hover {
     overflow-y: auto;
 }
 
-.box {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 6px;
+/* ===== SIDEBAR CONSULT ===== */
+.consult-sidebar {
+  background: linear-gradient(135deg, #1f2b6c, #2f3fa3);
+  padding: 20px;
+  border-radius: 16px;
+  color: #ffffff;
+  margin-top: 24px;
 }
 
-.box h3 {
-    margin-bottom: 10px;
-    color: #032C7D;
+.consult-sidebar h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
 }
 
-.box ul {
-    padding-left: 18px;
+.consult-desc {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-bottom: 14px;
 }
 
-.box input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+.consult-sidebar input,
+.consult-sidebar select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
 }
 
-.box button {
-    width: 100%;
-    padding: 8px;
-    background: #1D97F1;
-    color: white;
-    border: none;
+.consult-sidebar button {
+  width: 100%;
+  padding: 12px;
+  background: #ffd34e;
+  color: #1f2b6c;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
 }
+
+.consult-sidebar button:hover {
+  background: #ffcc2f;
+}
+
+.consult-note {
+  font-size: 0.8rem;
+  opacity: 0.85;
+  margin-top: 10px;
+  text-align: center;
+}
+
 .toc {
     padding-left: 20px;
 }
